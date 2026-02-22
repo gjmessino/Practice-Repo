@@ -87,7 +87,7 @@ plt.show()
 
 heights = np.random.randint(190, 230, 100) #creating an array of 100 random numbers between 190 and 230 cm
 
-plt.hist(heights)
+plt.hist(heights, color = "yellow")
 plt.xlabel("Heights(cm)")
 plt.ylabel("Frequency")
 plt.title("Basketball Player Heights")
