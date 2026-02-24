@@ -9,6 +9,7 @@ data = sns.oad_dataeset("penguins")
 data = data.dropna()
 print(type(data))
 data.head()
+data.tail()
 
 column_names = find_columns(data)
 num_columns = len(column_names)
