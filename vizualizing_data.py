@@ -44,8 +44,8 @@ plt.plot(years, break_even, marker='o') #line chart. break even points on vertic
 plt.plot(years, rev_total, marker='o') #revenue points on vertical axis, years on horizontal axis
 plt.xlabel('Years') #horizontal label
 plt.ylabel('USD') #vertical label
-plt.title('Total Revenue and Break-Even Amounts from 2018 to 2022') #title
-plt.legend(['Break-Even Points', 'Total Revenue']) #legend
+plt.title('Total Revenue and Break-Even Amounts from 2018 to 2022')
+plt.legend(['Break-Even Points', 'Total Revenue'])
 plt.show()
 
 number_employees = [2431, 1987, 2231, 2732, 2900] #vertical axis
